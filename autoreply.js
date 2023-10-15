@@ -12,6 +12,12 @@ const autoReply = (msg) => {
     if(msg.match(/ane|අනේ|අනෙ/gi)){
         R = "🤭අනේ පනේ🤫😂"
     }
+    if(msg.match(/Ponnayo|Pako|Hutho/gi)){
+        R = "😡හරි බන් එල උබට කුනුහරප පුලුවන් බන් එල අප්පොඩියක් ගහන්න වටිනවා 😂"
+    }
+    if(msg.match(/Hukapan|Fuck|Sex|xxx/gi)){
+        R = "🤭අනේ පොඩි එකෝ උබට බිජක්වත් තියෙද කියපන්කො😂"
+    }
     if(msg.match(/yako|yaku|යකෝ|යකො/gi)){
         R = "😒කවුද යකා. මමද?💔"
     }
