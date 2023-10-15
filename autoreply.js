@@ -120,6 +120,9 @@ const autoReply2 = (msg) => {
     if(msg.match(/🤣|😂😂/gi)){
         R = "sendAudio:112"
     }
+    if(msg.match(/ඇයි|මොකෝ/gi)){
+        R = "sendAudio:117"
+    }
     if(msg.match(/😒/gi)){
         R = "sendAudio:113"
     }
